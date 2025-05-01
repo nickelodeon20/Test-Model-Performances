@@ -1,0 +1,5 @@
+# UG Research on Machine Learning, Deep Learning models for Analyzing EEG, EOG Data 
+Starting at the lab in February 2025, the first tasks assignmed to me involved analyzing the EEG Data collected utilizing the BrainDecode online library. I beagn read through many of the library's explanations of their specific Machine Learning/Deep Learning models used to analyze different kinds of electrophysilogical data, the original papers associated with the models (since those that did not have source code were recreations by BrainDecode based on the paper's description), specific preprocessing methods from BrainDecode, and data conversion functionalities between popularly used data types like MNE, MOABB, or custom created datasets. Throughout the semester, I attempted to recreate some of the specific models for use on custom datasets as well as trying to recreate their reported performance on the BCI IV 2a dataset as a benchmark to check if my recreation of the model is accurate, since I had no prior experience to ML/DL models and no way to know if my implementation} 
+<text>
+
+In the 
