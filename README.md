@@ -26,7 +26,6 @@ Apart from some dependency errors when installing BrainDecode and then MOABB whi
 ### <ins>EEGInceptionERP</ins>
 The EEGInception model is described by [this paper](https://ieeexplore.ieee.org/document/9311146), but the implementation from BrainDecode while based off the paper is not checked by the authors and independently made. After partially implementing the model, I realized this and that the model was not in line with the direction for the lab so the code is not complete. 
 
-
 ### <ins>ATCNet</ins>
 The ATCNet model is originally presented [here](https://ieeexplore.ieee.org/document/9852687) along with this [source code](https://github.com/Altaheri/EEG-ATCNet), which I believe is the same code utilized in BrainDecode's implementation as the do not explicitly say that their code is created. 
 
@@ -34,4 +33,4 @@ The ATCNet model is originally presented [here](https://ieeexplore.ieee.org/docu
 Similar to ShallowFBCSPNet, the ATCNet from BrainDecode is modefied slightly from the original tutorial to work with the custom dataset, kept the same preprocessing pipeline, and evaluated the model with the same metrics as the before. 
 
 ##### _BCI-IV 2a Dataset_
-There are two implementations following the same format as above utilizing the BCI IV 2a dataset, one with a Train/Test split and one with a Train/Valid/Test split to better ensure 
+There are two implementations following the same format as above utilizing the BCI IV 2a dataset, one with a Train/Test split and one with a Train/Valid/Test split to better measure the models capabilities as described above with the same policy as presented in the ShallowFBCSPNet section.
